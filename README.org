@@ -1,0 +1,5 @@
+* Chip8
+** Chip8?
+   Chip8 is a virtual machine for a virtual machine language capable of writing old-style arcade games like pong and pacman
+** This code
+   Uhh I'm implementing an emulator in Common Lisp.
