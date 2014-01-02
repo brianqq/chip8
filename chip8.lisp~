@@ -1,7 +1,0 @@
-(defparameter *ram*
-  (make-array 3584 :element-type 'byte :adjustable nil))
-(defun ram-ref (subscript)
-  (declare (byte subscript))
-  (the byte (aref *ram* (- subscript 512))))
-(defparameter *registers*
-  (make-array 16 :element-type 'byte :adjustable nil))
